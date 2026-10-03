@@ -13,14 +13,21 @@ assets/js/main.js     Mobilmenu, "Åbent nu"-status og markering af dagens åbni
 assets/img/favicon.svg
 ```
 
-## Se siden lokalt
+## Kør siden lokalt
 
-Åbn `index.html` direkte i en browser – eller kør en lille server:
+Kræver kun Python 3 (ingen installation af pakker).
 
 ```sh
+git clone https://github.com/Nicorad11/HH.git
+cd HH
 python3 -m http.server 8000
-# åbn http://localhost:8000
 ```
+
+Åbn derefter **http://localhost:8000** i din browser. Stop serveren med `Ctrl+C`.
+
+På Windows hedder kommandoen typisk `py -m http.server 8000` (eller `python -m http.server 8000`).
+
+Kommandoen skal køres i mappen, hvor `index.html` ligger.
 
 ## Funktioner
 
